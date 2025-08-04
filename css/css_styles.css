@@ -1,0 +1,85 @@
+/* General styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f7fa;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+/* Section styling */
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Gallery styling */
+#gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Contact styling */
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
